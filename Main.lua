@@ -3,7 +3,7 @@ Petapeta
 -- HASH IDENTIFIER BYPASS: 58bdb0048fc9c2f6aef7fba1cd1192639f2fc5ff
 local p, tg = game:GetService("Players").LocalPlayer, "HashTag"
 local pGui = p:WaitForChild("PlayerGui")
-if pGui:FindFirstChild("PetaHashMenu") then pGui.PetaHashMenu:Destroy() end
+if pGui:FindFirstChild("PetaHashMenu") then pGui viethubpro:Destroy() end
 
 local sg = Instance.new("ScreenGui", pGui) sg.Name, sg.ResetOnSpawn = "PetaHashMenu", false
 local fr = Instance.new("Frame", sg) fr.Size, fr.Position, fr.BackgroundColor3, fr.Active, fr.Draggable = UDim2.new(0,160,0,140), UDim2.new(0.1,0,0.3,0), Color3.fromRGB(15,15,20), true, true
