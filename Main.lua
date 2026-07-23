@@ -5,7 +5,7 @@ local p, tg = game:GetService("Players").LocalPlayer, "HashTag"
 local pGui = p:WaitForChild("PlayerGui")
 if pGui:FindFirstChild("PetaHashMenu") then pGui viethubpro:Destroy() end
 
-local sg = Instance.new("ScreenGui", pGui) sg.Name, sg.ResetOnSpawn = "PetaHashMenu", false
+local sg = Instance.new("ScreenGui", pGui) sg.Name, sg.ResetOnSpawn = "viethubpro", false
 local fr = Instance.new("Frame", sg) fr.Size, fr.Position, fr.BackgroundColor3, fr.Active, fr.Draggable = UDim2.new(0,160,0,140), UDim2.new(0.1,0,0.3,0), Color3.fromRGB(15,15,20), true, true
 local tl = Instance.new("TextLabel", fr) tl.Size, tl.Text, tl.TextColor3, tl.BackgroundColor3, tl.Font, tl.TextSize = UDim2.new(1,0,0,25), "PETA HASH PRO", Color3.fromRGB(0,255,150), Color3.fromRGB(5,5,10), 3, 12
 
